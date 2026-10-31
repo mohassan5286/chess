@@ -15,10 +15,7 @@ from pathlib import Path
 # Other examples:
 #   STOCKFISH_PATH = r"C:\Tools\stockfish\stockfish-windows-x86-64-avx2.exe"
 #   STOCKFISH_PATH = "/home/me/stockfish/stockfish"
-STOCKFISH_PATH = str(
-    Path.home() / "Documents" / "Programme" / "stockfish-windows-x86-64-universal"
-    / "stockfish" / "stockfish-windows-x86-64-universal.exe"
-)
+STOCKFISH_PATH = r"D:\Projects\AI Engineering\chess-coach\bin\stockfish\stockfish-windows-x86-64-universal.exe"
 
 
 @dataclass

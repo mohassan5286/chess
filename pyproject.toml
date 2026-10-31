@@ -8,14 +8,13 @@ version = "0.1.0"
 description = "Chess game review analyzer"
 dependencies = [
     "chess",
-    "flask"
 ]
 
 [tool.setuptools]
 py-modules = ["config"]
 
 [tool.setuptools.packages.find]
-where = ["."]
+include = ["review*"]
 
 [tool.setuptools.package-data]
-"*" = ["data/**/*", "data/openings/*"]
+review = ["data/openings/*.tsv", "data/openings/*.txt"]

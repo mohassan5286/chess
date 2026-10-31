@@ -11,7 +11,7 @@ import re
 
 import chess
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "openings"
+DATA_DIR = Path(__file__).resolve().parent / "data" / "openings"
 _MOVE_NUMBER = re.compile(r"^\d+\.+$")
 
 
